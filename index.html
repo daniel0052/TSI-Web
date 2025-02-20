@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sabor&Simples</title>
+
+  <link rel="shortcut icon" href="./img/icon.svg" type="image/x-icon">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Notable&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- Estilo -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Icons -->
+  <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
+</head>
+
+<body>
+  
+  <header>
+    <div class="header">
+      <h1 id="nome">Sabor&Simples</h1>
+      <nav class="menu">
+        <ul>
+          <li><a href="#">Receitas</a></li>
+          <li><a href="#">Sobre nós</a></li>
+          <li><a href="#">Vegano</a></li>
+          <li><a href="#">Doces</a></li>
+          <li><a href="#">Massas</a></li>
+          <li><input class="pesquisa" type="text" placeholder="O que deseja pesquisar"><a class="pesquisa-ex"><img src="./img/lupa.svg" alt=""></a></li>
+        </ul>
+
+        <div id="login">
+          <img src="./img/perfil.svg">  
+          <a href="#">Entrar</a>
+        </div>
+
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div id="receitas">
+      <h1>Receitas</h1>
+
+      <ul>
+        <li>
+          <a href="#"><img src="./img/macarrao.png" alt="Macarrão"></a>
+          <h2>Macarrão ao alho e óleo simples</h2>
+          <input type="checkbox" id="macarrao">
+          <p>
+            Aquela receita simples e prática que todo mundo ama: macarrão ao alho e óleo! A presença do alho douradinho dá um sabor único a esse prato! Veja agora mesmo como fazer essa massa que todo mundo ama!
+          </p>
+          <label for="macarrao">Leia Mais</label>
+        </li>
+
+        <li>
+          <a href="#"><img src="./img/pao.png" alt="Pão"></a>
+          <h2>Pão caseiro</h2>
+          <input type="checkbox" id="pao">
+          <p>
+            Fazer pão caseiro é uma experiência gratificante e deliciosa, especialmente quando se pode sentir o aroma irresistível do pão assando pela casa.
+          </p>
+          <label for="pao">Leia Mais</label>
+        </li>
+
+        <li>
+          <a href="#"><img src="./img/pao-de-queijo.png" alt="Pão de Queijo"></a>
+          <h2>Pão de queijo tradicional</h2>
+          <input type="checkbox" id="pao-de-queijo">
+          <p>
+            Quer um lanche rápido? Esse pão de queijo é crocante por fora, macio por dentro e perfeito para qualquer momento! Essa receita rende cerca de 30 unidades
+          </p>
+          <label for="pao-de-queijo">Leia Mais</label>
+        </li>
+
+        <li>
+          <a href="#"><img src="./img/bolo.png" alt="Bolo"></a>
+          <h2>Bolo de liquidificador fácil</h2>
+          <input type="checkbox" id="bolo">
+          <p>
+            O bolo de liquidificador é uma receita fácil, simples e que leva apenas 6 ingredientes: ovos, açúcar, farinha de trigo, fermento, leite e margarina. É uma sugestão para o café da manhã ou lanche da tarde.
+          </p>
+          <label for="bolo">Leia Mais</label>
+        </li>
+
+        <li>
+          <a href="#"><img src="./img/pudim.png" alt="Pudim"></a>
+          <h2>Pudim</h2>
+          <input type="checkbox" id="pudim">
+          <p>
+            O pudim de leite fácil, rápido e prático e irresistível é uma verdadeira tentação para os amantes de sobremesas clássicas.
+          </p>
+          <label for="pudim">Leia Mais</label>
+        </li>
+
+        <li>
+          <a href="#"><img src="./img/pure.png" alt="Pure"></a>
+          <h2>Purê de batata simples</h2>
+          <input type="checkbox" id="pure">
+          <p>
+            Ele é o acompanhamento ideal para várias receitas tradicionais e deliciosas! Que tal aprender como fazer purê de batata?
+          </p>
+          <label for="pure">Leia Mais</label>
+        </li>
+
+        <li>
+          <a href="#"><img src="./img/peixe-frito.png" alt="Peixe frito"></a>
+          <h2>Peixe frito</h2>
+          <input type="checkbox" id="peixe-frito">
+          <p>
+            A receita de peixe frito é uma iguaria popular em muitas culturas ao redor do mundo. Ela consiste em temperar, empanar e fritar o peixe em óleo quente até ficar crocante por fora e macio por dentro.
+          </p>
+          <label for="peixe-frito">Leia Mais</label>
+        </li>
+
+        <li>
+          <a href="#"><img src="./img/strogonoff.png" alt="Strogonoff"></a>
+          <h2>Strogonoff de frango</h2>
+          <input type="checkbox" id="strogonoff">
+          <p>
+            O strogonoff de frango é um prato amado por todos e muito fácil de ser preparado! A combinação da carne de frango suculenta com o molho cremoso deixa qualquer um salivando só de pensar.
+          </p>
+          <label for="strogonoff">Leia Mais</label>
+        </li>
+      </ul>
+      <div id="container-mais">
+        <input type="checkbox" id="mais-receitas">
+        <label for="mais-receitas">Mais receitas</label>
+      </div>
+    </section>
+
+    <section id="alimentos-propriedades">
+      <h1>Alimentos e sua <strong>Propriedades</strong></h1>
+      <div>
+        <img src="./img/maca.png" alt="Maça">
+        <div class="conteudo">
+          <h2>Maçã</h2>
+          <p>
+            A maçã possui potássio, fibras, além de compostos antioxidantes na sua composição. Quando consumida regularmente e como parte de um estilo de vida saudável, a maçã pode ajudar a reduzir o risco de ocorrência de alguns tipos de câncer, como pulmão e cólon, além de reduzir o risco de diabetes e problemas hepáticos.
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <img src="./img/banana.png" alt="Banana">
+        <div class="conteudo">
+          <h2>Banana</h2>
+          <p>
+            Cheia de nutrientes, a fruta auxilia a regularizar o sistema nervoso e o aparelho digestivo. Além disso, o consumo regular oferece resistência aos vasos sanguíneos e evita câimbras, devido à presença do potássio. Enquanto as vitaminas do complexo B são responsáveis pela renovação celular e dos músculos.
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <img src="./img/cafe.png" alt="Café">
+        <div class="conteudo">
+          <h2>Café</h2>
+          <p>
+            Tanto o café como o descafeinado têm polifenois, que atuam como antioxidantes e reduzem os efeitos negativos do stress oxidativo e da inflamação nas nossas células. Além disso, o café em quantidade moderada pode: Ter benefícios neurológicos e atuar como antidepressivo. Melhorar o humor.
+          </p>
+        </div>
+      </div>
+
+      <div id="container-mais">
+        <input type="checkbox" id="mais-receitas">
+        <label for="mais-receitas">Mais alimentos</label>
+      </div>
+
+    </section>
+    
+   <section>
+    <div id="reaproveitamento">
+      <div id="reaproveitamento-container">
+        <h1>Qual é a importância do reaproveitamento de alimentos?</h1>
+        <p>
+          O <strong>reaproveitamento de alimentos</strong> é uma <strong>solução</strong> para diversos problemas atuais simples de ser tomada, como <strong>desperdício de toneladas de alimentos</strong> no mundo, geração de resíduos, poluição, entre outros, basta uma pequena mudança nos hábitos. Para se ter noção, <strong>30% da produção mundial de alimentos é desperdiçada.</strong>
+        </p>
+        <img class="reaproveitamento-img" src="./img/desperdicio-de-comida.png" alt="Desperdicio de comida">
+        <p>
+          Há <strong>preconceitos</strong>. Muitos não apreciam o <strong>gosto</strong> ou a <strong>textura das cascas e talos</strong>, sem contar que elas têm uma taxa maior de <strong>agrotóxicos</strong>, por isso, sempre é <strong>melhor</strong> optar por <strong>produtos orgânicos</strong> e prestigiar mercados que comercializem produtos cuja origem seja mais próxima quanto possível a você.
+        </p>
+
+        <p>
+          Mas ao mesmo tempo, eles têm <strong>nutrientes</strong> e <strong>fibras</strong> que são passíveis de <strong>reaproveitamento</strong>. Independentemente das opiniões, que podem variar, <strong>cascas de cítricos</strong>, <strong>batata</strong>, <strong>abacate sem o caroço</strong> e até mesmo <strong>cascas de banana</strong> têm <strong>reaproveitamento</strong>. Todos esses restos de alimentos podem ser reaproveitados de três modos: <strong>na casa</strong>, <strong>na comida</strong> ou como <strong>produto de beleza</strong>.
+        </p>
+      </div>
+
+      <div id="exemplos-pratico">
+        <h1 id="titulo">Exemplos Práticos de Reaproveitamento</h1>
+        <div class="container-exemplos1">
+          <h2>Bolinho de arroz</h2>
+          <div class="container-exemplos">
+            <img class="componente-03-img" src="./img/bolinho-de-arroz.png" alt="Bolinho de arroz">
+            <p>
+              O bolinho de arroz é uma delícia clássica e versátil, perfeito para aproveitar sobras de forma criativa. Rico em sabor e crocância, é uma ótima fonte de energia e uma opção que agrada a todos os paladares!
+            </p>
+            <input type="checkbox" id="leia-mais">
+            <label for="leia-mais">Leia Mais</label>
+          </div>
+        </div>
+        
+        <div class="container-exemplos1">
+          <h2>Doce de casca de banana</h2>
+          <div class="container-exemplos">
+            <img class="componente-03-img" src="./img/doce-banana.png" alt="Doce de casca de banana">
+            <p>
+              O doce de casca de banana é uma sobremesa surpreendente e sustentável, rica em fibras e nutrientes que auxiliam na digestão e promovem a saúde da pele, tudo isso com um sabor irresistível!
+            </p>
+            <input type="checkbox" id="leia-mais">
+            <label for="leia-mais">Leia Mais</label>
+          </div>
+        </div>
+
+        <div class="container-exemplos1">
+          <h2>Suco de casca de abacaxi e capim-cidreira</h2>
+          <div class="container-exemplos">
+            <img class="componente-03-img" src="./img/suco-abacaxi.png" alt="Suco de casca de abacaxi e capim-cidreira">
+            <p>
+              A receita de suco de casca de abacaxi com capim cidreira fica deliciosa e refrescante, além de ser uma poderosa fonte de antioxidantes que fortalece a imunidade e melhora a saúde dos tecidos, inclusive da pele.
+            </p>
+            <input type="checkbox" id="leia-mais">
+            <label for="leia-mais">Leia Mais</label>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+    <section id="equipe">
+      <h1>Equipe de cozinha</h1>
+      <div id="equipe-cozinha">
+        <ul>
+          <li>
+            <h2 id="funcao">Chefe</h2>
+            <input type="checkbox" id="chefe">
+            <label for="chefe"><img src="./img/chefe.png" alt="Chefe"></label>
+            <h2 class="nome">Ricardo Almeida</h2>
+            <div class="oculto">
+              <p>
+                Com anos de experiência em renomados restaurantes, Ricardo é o cérebro por trás de cada prato servido. Ele supervisiona toda a operação, garantindo que os padrões de qualidade sejam mantidos e que a equipe trabalhe de forma harmoniosa e eficiente. Sua liderança inspira os outros a sempre buscarem a perfeição.
+              </p>
+            </div>
+          </li>
+          
+        <li>
+          <h2 id="funcao">Cozinheira</h2>
+          <input type="checkbox" id="cozinheira01">
+          <label for="cozinheira01"><img src="./img/cozinheira01.png" alt="Cozinheira"></label>
+          <h2 class="nome">Lara Costa</h2>
+          <div class="oculto">
+            <p>
+              Lara é a mestre das receitas tradicionais e inovadoras. Com um paladar apurado, ela transforma ingredientes simples em pratos surpreendentes. Sua habilidade em combinar sabores e texturas é essencial para o sucesso da cozinha.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <h2 id="funcao">Cozinheiro</h2>
+          <input type="checkbox" id="cozinheiro02">
+          <label for="cozinheiro02"><img src="./img/cozinheiro02.png" alt="Cozinheiro"></label>
+          <h2 class="nome">Daniel Pereira</h2>
+            <div class="oculto">
+            <p>
+              Daniel é o especialista nas técnicas de preparo e execução. Seu foco está em garantir que cada prato saia no ponto exato e com a apresentação impecável. Ele trabalha com rapidez e precisão, sempre pronto para novos desafios culinários.
+            </p>
+          </div>
+        </li>
+
+          <li>
+            <h2 id="funcao">Nutricionista</h2>
+            <input type="checkbox" id="nutricionista">
+            <label for="nutricionista"><img src="./img/nutricionista.png" alt="Nutricionista"></label>
+            <h2 class="nome">Sofia Martins</h2>
+            <div class="oculto">
+              <p>
+                Sofia é a responsável por garantir que todos os pratos atendam às necessidades nutricionais dos clientes, sem comprometer o sabor. Com seu conhecimento em nutrição, ela cria menus balanceados e saudáveis, respeitando as preferências e restrições alimentares de cada pessoa.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div id="conteudo-esquerda">
+      <h1>
+        Cadastre seu e-mail e fique por dentro de todas as novidades mais deliciosas diretamente na sua caixa de entrada!
+      </h1>
+      <div id="rodape">
+        <input type="email" id="email" name="email" placeholder="Digite seu E-mail">
+        <label for="email"><button type="submit">Cadastrar</button></label>
+      </div>
+
+      <div id="termos">
+        <a href="#">Termos de uso</a>
+        <a href="#">Politicas de Privacidade</a>
+      </div>
+    </div>
+
+    <div id="conteudo-direita">
+      <div id="container-final">
+        <h1>Nos siga e compartilhe seus pratos favoritos!</h1>
+        <div id="icons">
+          <a href="#"><i class="lab la-instagram"></i></a>
+          <a href="#"><i class="lab la-facebook"></i></a>
+          <a href="#"><i class="lab la-youtube"></i></a>
+          <a href="#"><i class="lab la-pinterest-p"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <p id="copy">Copyright &copy; Sabor&Simples 2024. All rights reserved.</p>
+  </footer>
